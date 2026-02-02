@@ -1,5 +1,4 @@
-# ESP32 Workshop – Ortam Kurulum Rehberi
-
+# Tiremo - IoT Cybersecurity (CRA) - Accelerator Workshop Kurulum Rehberi
 > Accelerator Workshop - Tiremo IoT Cybersecurity & Cyber Resilience Act
 
 Bu doküman, Tiremo - IoT Cybersecurity (CRA) - Accelerator workshop kapsamında kullanılacak ESP32 geliştirme ortamının Windows, macOS ve Linux işletim sistemleri için nasıl kurulacağını adım adım açıklamaktadır.

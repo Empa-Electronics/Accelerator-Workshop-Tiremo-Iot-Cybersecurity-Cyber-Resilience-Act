@@ -83,7 +83,7 @@ Extension kurulduktan sonra ESP-IDF'yi yapılandırmanız gerekmektedir:
 
 **Kurulum Seçenekleri:**
 
-- **Express:** Hızlı kurulum (önerilen - ESP-IDF v5.3 otomatik indirilir)
+- **Express:** Hızlı kurulum
 - **Advanced:** Özelleştirilmiş kurulum (mevcut kurulumu kullanma veya farklı versiyon seçme)
 
 ![VS Code Kurulum Seçenekleri ](images/Picturevscode3.png)
@@ -103,7 +103,7 @@ Bu workshop kapsamında aşağıdaki ayarları kullanacağız:
 **Kurulum Adımları:**
 
 1. Yukarıdaki ekranda ESP-IDF versiyonu olarak **v5.3** seçili olduğundan emin olun
-2. **Install** düğmesine tıklayın
+2. **Install** Butonnuna tıklayın
 3. Kurulum işlemi başlayacak ve birkaç dakika sürebilir
 4. Kurulum tamamlandığında extension kullanıma hazır olacaktır
 

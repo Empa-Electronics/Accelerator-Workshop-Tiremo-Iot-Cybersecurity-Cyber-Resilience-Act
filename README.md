@@ -6,11 +6,12 @@ Bu doküman, Tiremo - IoT Cybersecurity (CRA) - Accelerator workshop kapsamında
 ## 📋 İçindekiler
 
 - [Sistem Gereksinimleri](#-sistem-gereksinimleri)
-- [Windows Kurulumu](#1-windows-kurulumu)
-- [macOS / Linux Kurulumu](#2-macos--linux-kurulumu)
-- [Kurulum Doğrulama](#-kurulum-doğrulama)
-- [Faydalı Komutlar](#-faydalı-komutlar)
-- [Sorun Giderme](#-sorun-giderme)
+- [VSCode ve Eklentilerin Kurulumu](#vscode-ve-eklentilerin-kurulumu)
+- [Alternatif Kurulum Yöntemleri](#alternatif-kurulum-yöntemleri)
+  - [Windows Kurulumu](#1-windows-kurulumu)
+  - [macOS / Linux Kurulumu](#2-macos--linux-kurulumu)
+- [Kurulum Doğrulama](#kurulum-doğrulama)
+- [Faydalı Komutlar](#faydalı-komutlar)
 - [Kaynaklar](#-kaynaklar)
 
 ## 💻 Sistem Gereksinimleri
@@ -33,8 +34,11 @@ Bu doküman, Tiremo - IoT Cybersecurity (CRA) - Accelerator workshop kapsamında
 - Minimum 4 GB RAM (8 GB önerilir)
 - En az 10 GB boş disk alanı
 - sudo yetkisi
+## VSCode ve Eklentilerin Kurulumu
 
-## 1. Windows Kurulumu
+
+## Alternatif Kurulum Yöntemleri
+### 1. Windows Kurulumu
 
 - https://dl.espressif.com/dl/esp-idf/ adresinden **Universal Online Installer 2.4.0** indirilir.
 
@@ -67,9 +71,9 @@ Bu doküman, Tiremo - IoT Cybersecurity (CRA) - Accelerator workshop kapsamında
 
 - İşlem tamamlandıktan sonra ESP projeleri için kullanabileceğiniz terminal açılacaktır. İlerleyen günlerde sizlerle çalışacağımız proje dosyasını paylaşacağız. Bu terminalde örnek proje klasörünün içine girerek `idf.py build` komutunu çalıştırıp kodu derleyebilirsiniz.
 
-## 2. macOS / Linux Kurulumu
+### 2. macOS / Linux Kurulumu
 
-### Aşama 1 – Gerekli Paketlerin Kurulumu
+#### Aşama 1 – Gerekli Paketlerin Kurulumu
 
 **Linux Kullanıcıları için:**
 ```bash
@@ -81,7 +85,7 @@ sudo apt-get install git wget flex bison gperf python3 python3-pip python3-venv 
 brew install cmake ninja dfu-util
 ```
 
-### Aşama 2 – Python 3 Kontrolü
+#### Aşama 2 – Python 3 Kontrolü
 
 Python sürümünü kontrol ediniz:
 ```bash
@@ -95,7 +99,7 @@ Eğer Python yüklü değilse (macOS):
 brew install python3
 ```
 
-### Aşama 3 – ESP-IDF İndirme
+#### Aşama 3 – ESP-IDF İndirme
 
 ```bash
 mkdir -p ~/esp
@@ -105,7 +109,7 @@ git clone -b v5.3 --recursive https://github.com/espressif/esp-idf.git
 
 📦 **ESP-IDF Repository:** [https://github.com/espressif/esp-idf.git](https://github.com/espressif/esp-idf.git)
 
-### Aşama 4 – Gerekli Araçların Kurulumu
+#### Aşama 4 – Gerekli Araçların Kurulumu
 
 ```bash
 cd ~/esp/esp-idf
@@ -114,7 +118,7 @@ cd ~/esp/esp-idf
 
 Bu adımda derleyici, debugger ve gerekli Python paketleri kurulacaktır.
 
-### Aşama 5 – Ortam Değişkenlerinin Ayarlanması
+#### Aşama 5 – Ortam Değişkenlerinin Ayarlanması
 
 ESP-IDF araçlarının terminalden kullanılabilmesi için aşağıdaki komut çalıştırılmalıdır:
 

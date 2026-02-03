@@ -1,7 +1,6 @@
 
 <div align="center">
-  <img src="images/banner3.png" alt="Tiremo IoT Cybersecurity Workshop Banner" width="100%">
-  <img src="images/banner2.png" alt="Accelerator Workshop Cyber Resilience Act" width="100%">
+  <img src="images/banner3.jpg" alt="Tiremo IoT Cybersecurity Workshop Banner" width="100%">
 </div>
 
 # Tiremo - IoT Cybersecurity (CRA) - Accelerator Workshop Kurulum Rehberi
